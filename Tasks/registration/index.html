@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Enrollment Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="div">
+            <center><h1>Student Enrollment Form</h1></center>
+            <div class="flexbox">
+                <form id="registration-form">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input name="name" type="text" id="name" autofocus required>
+                    </p>
+                    <p>
+                        <label for="email">Email     :</label>
+                        <input name="email" type="email" id="email" required>
+                    </p>
+                    <p>
+                        <label for="password">Password   :</label>
+                        <input name="password" id="password" type="password" required>
+                    </p>
+
+                    <p>
+                        <label for="confirm-password">Confirm password:</label>
+                        <input name="city" id="confirm-password" type="password" required>
+                    </p>
+                    <button class="submit1" type="submit" onclick="displayData()">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div>
+        <hr>
+        <center>
+            <table id="registration-table">
+        </center>
+        <thead>
+            <center>
+                <h1>DATA</h1>
+            </center>
+            <tr>
+
+                <th>
+                    <h3>Name</h3>
+                </th>
+                <th>
+                    <h3>Email</h3>
+                </th>
+                <th>
+                    <h3>Password</h3>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

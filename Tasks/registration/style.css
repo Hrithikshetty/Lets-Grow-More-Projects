@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@200;400&family=Clicker+Script&family=Lato:ital,wght@1,300&family=Libre+Franklin:wght@200&family=Poppins:wght@100;200;500;600&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  cursor:default;
+  font-family: 'Bitter', serif;
+}
+#registration-table {
+  border: 2px solid black;
+
+}
+th {
+    padding: 1.2vw;
+    font-size: medium;
+}
+.container {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(175, 176, 175);
+}
+.div {
+  width: 30vw;
+  height: 470px;
+  background: rgb(220, 228, 220);
+  overflow-y: hidden;
+  border-radius: 20px;
+  padding: 20px;
+}
+p {
+  padding: 1.2vw;
+  /* font-size: medium; */
+}
+input {
+  width: 27vw;
+  height: 3vh;
+}
+h1{
+    padding: px;
+}
+.submit1{
+    width: 30vw;
+    height: 5vh;
+    position: relative;
+    top: 0;
+    background: rgb(88, 196, 218);
+    font-size: larger;
+    border: none;
+    padding: 1vh;
+}
+.submit1:hover {
+    background: rgb(154, 216, 234);
+    cursor: pointer;
+}
